@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+    <title>Ball Game</title>
+  </head>
+  <body>
+<div class="container">
+  <div class="center">
+    <h1  onclick="baslat(this)"
+    style="margin-left:230px; margin-top:10px;
+     background-color:gold; width:180px; text-align:center;">
+     START</h1>
+        <canvas id="game" width="600" height="400" style="margin-top:60px;
+        margin-left:20px;"></canvas>
+        <script src="game.js"> </script>
+        <!-- <p id="sayac">0</p>gg
+        <p id="finish"></p> -->
+
+  <p id="finish"></p>
+      <div style="margin-top:20px; margin-left:250px;">
+        <audio id="music">
+          <source src="ballgame.mp3" >
+          </audio>
+          <button class="btn btn-warning" id="start">Müzik Çal</button>
+          <button class="btn btn-danger" id="pause">Durdur</button>
+        </div>
+        <script type="text/javascript" src="http://emreceyhan.net/js/jquery-2.1.3.min.js"></script>
+        <script src="ses.js"></script>
+  </div>
+</div>
+
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
